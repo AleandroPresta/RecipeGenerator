@@ -1,14 +1,12 @@
 package net.recipes.recipegenerator.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecipeDto {
@@ -17,13 +15,5 @@ public class RecipeDto {
     private String name;
     private List<String> ingredients;
 
-    @Override
-    public String toString() {
-        return "RecipeDto{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", ingredients=" + ingredients +
-                '}';
-    }
 }
 

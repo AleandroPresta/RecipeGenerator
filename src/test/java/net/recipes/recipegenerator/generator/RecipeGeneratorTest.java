@@ -19,6 +19,7 @@ class RecipeGeneratorTest {
 
     @Test
     void testIngredients() {
+
         List<String> ingredients = List.of("flour", "sugar", "eggs");
         recipe.setIngredients(ingredients);
 
@@ -29,6 +30,7 @@ class RecipeGeneratorTest {
 
     @Test
     void testFindPossibleRecipes() {
+
         List<String> availableIngredients = List.of("flour", "sugar", "eggs", "milk", "chocolate");
 
         Recipe recipe1 = new Recipe(1L, "Recipe 1", List.of("flour", "sugar", "eggs"));
@@ -44,6 +46,4 @@ class RecipeGeneratorTest {
         assertTrue(possibleMatches.contains(recipe2), "Recipe 2 should be a possible match.");
         assertFalse(possibleMatches.contains(recipe3), "Recipe 3 should not be a possible match.");
     }
-
 }
-

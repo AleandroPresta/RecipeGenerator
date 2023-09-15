@@ -36,9 +36,8 @@ public class RecipeServiceImpl implements RecipeService {
         Recipe recipe = recipeRepository.findById(recipeId)
                 .orElseThrow(() -> new ResourceNotFoundException("Recipe doesn't exist with the given ID " + recipeId));
 
-        // Update the recipe properties as needed
-        // For example: recipe.setName(updatedRecipe.getName());
-        // You should update all relevant fields here
+        recipe.setName(updatedRecipe.getName());
+        recipe.setIngredients(updatedRecipe.getIngredients());
 
         return recipeRepository.save(recipe);
     }
