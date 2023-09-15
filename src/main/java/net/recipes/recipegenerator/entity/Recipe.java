@@ -1,4 +1,4 @@
-package net.recipies.RecipieGenerator.entity;
+package net.recipes.recipegenerator.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

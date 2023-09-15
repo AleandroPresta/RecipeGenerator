@@ -1,11 +1,10 @@
-package net.recipies.RecipieGenerator.service.impl;
+package net.recipes.recipegenerator.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.recipies.RecipieGenerator.entity.Recipe;
-import net.recipies.RecipieGenerator.exception.ResourceNotFoundException;
-import net.recipies.RecipieGenerator.repository.RecipeRepository;
-import net.recipies.RecipieGenerator.service.RecipeService;
-import net.recipies.RecipieGenerator.dto.RecipeDto;
+import net.recipes.recipegenerator.entity.Recipe;
+import net.recipes.recipegenerator.exception.ResourceNotFoundException;
+import net.recipes.recipegenerator.repository.RecipeRepository;
+import net.recipes.recipegenerator.service.RecipeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

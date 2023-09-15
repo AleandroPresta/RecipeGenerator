@@ -1,10 +1,10 @@
-package net.recipies.RecipieGenerator;
+package net.recipes.recipegenerator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecipieGeneratorApplicationTests {
+class RecipeGeneratorApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,6 +1,6 @@
-package net.recipies.RecipieGenerator.repository;
+package net.recipes.recipegenerator.repository;
 
-import net.recipies.RecipieGenerator.entity.Recipe;
+import net.recipes.recipegenerator.entity.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RecipeRepository extends JpaRepository<Recipe, Long> {

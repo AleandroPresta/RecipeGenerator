@@ -1,6 +1,6 @@
-package net.recipies.RecipieGenerator.generator;
+package net.recipes.recipegenerator.generator;
 
-import net.recipies.RecipieGenerator.entity.Recipe;
+import net.recipes.recipegenerator.entity.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package net.recipies.RecipieGenerator.dto;
+package net.recipes.recipegenerator.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,7 +15,6 @@ public class RecipeDto {
 
     private Long id;
     private String name;
-    private String description;
     private List<String> ingredients;
 
     @Override
@@ -23,7 +22,6 @@ public class RecipeDto {
         return "RecipeDto{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
                 ", ingredients=" + ingredients +
                 '}';
     }

@@ -1,8 +1,8 @@
-package net.recipies.RecipieGenerator.controller;
+package net.recipes.recipegenerator.controller;
 
 import lombok.AllArgsConstructor;
-import net.recipies.RecipieGenerator.entity.Recipe;
-import net.recipies.RecipieGenerator.service.RecipeService;
+import net.recipes.recipegenerator.entity.Recipe;
+import net.recipes.recipegenerator.service.RecipeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

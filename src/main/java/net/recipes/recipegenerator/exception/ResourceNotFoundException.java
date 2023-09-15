@@ -1,4 +1,4 @@
-package net.recipies.RecipieGenerator.exception;
+package net.recipes.recipegenerator.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
