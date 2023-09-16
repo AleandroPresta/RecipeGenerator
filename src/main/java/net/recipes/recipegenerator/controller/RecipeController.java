@@ -9,7 +9,7 @@ import net.recipes.recipegenerator.service.RecipeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import utils.IngredientExtractor;
+import net.recipes.recipegenerator.utils.IngredientExtractor;
 
 import java.util.List;
 import java.util.stream.Collectors;

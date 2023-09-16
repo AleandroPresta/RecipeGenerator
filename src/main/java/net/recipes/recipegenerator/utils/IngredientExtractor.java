@@ -1,4 +1,4 @@
-package utils;
+package net.recipes.recipegenerator.utils;
 
 import net.recipes.recipegenerator.entity.Ingredient;
 

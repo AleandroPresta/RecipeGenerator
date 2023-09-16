@@ -2,7 +2,6 @@ package net.recipes.recipegenerator.utils;
 
 import net.recipes.recipegenerator.entity.Ingredient;
 import org.junit.jupiter.api.Test;
-import utils.IngredientExtractor;
 
 import java.util.List;
 
